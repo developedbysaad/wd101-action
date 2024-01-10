@@ -9,7 +9,6 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - uses: actions/checkout@v2
     - name: Check out the solutions repo
       id: checkout-solutions-repo
       uses: actions/checkout@v2
